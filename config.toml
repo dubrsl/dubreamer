@@ -1,0 +1,14 @@
+# Config file in TOML format
+
+logdir = ""
+listen = 8000
+
+[stream]
+
+[stream.101]
+url="http://91.210.250.11/test.index.m3u8"
+dvr="/data/dvr"
+auth_hook="http://www.imb.plus.tv/auth2.php"
+
+[stream.test]
+url="http://91.210.250.11/test.index.m3u8"
